@@ -1,0 +1,32 @@
+{
+    "name": "djabiev/yii2-autosize-textarea",
+    "description": "An Yii2 Textarea Autosize extension based on Jack Moore's javascript library.",
+    "version": "0.0.5",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii2-autosize-textarea",
+        "yii2",
+        "textarea autosize",
+        "javascript"
+    ],
+    "homepage": "https://github.com/djabiev/yii2-autosize-textarea",
+    "time": "2017-09-28",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vladimir Djabiev",
+            "email": "djabiev@gmail.com",
+            "homepage": "https://github.com/djabiev",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2",
+        "bower-asset/autosize": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "djabiev\\yii\\assets\\": ""
+        }
+    }
+}
